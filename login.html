@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <link href= "https://fonts.googleapis.com/css?family=Lato:400,700|Sarabun:400,700" rel ="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Stalinist+One&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" type ="text/css" href ="../css/login.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Login</title>
+
+
+
+</head>
+<body>
+
+
+<div class"top">
+<h1 class="slogan"><br><b>A L P H A</h1></b>
+
+  <!--<div class="para">
+    <h4 class="front-text">Made for parents, students, teams, and groups
+    <p class="front-text">Experience the classroom in the comfort of your own home </p>
+  </div>
+</div> -->
+
+  <div class="container">
+    <div class="form-box">
+      <div class="row">
+        <div class="col-md-6 left-pic">
+        </div>
+        <div class="col-md-6">
+
+
+          <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+          </div>
+          <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="Username" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span> Forgot Password?</span>
+            <button type="submit" class="submit-btn">Log in </button>
+          </form>
+          <form id ="register" class="input-group">
+            <input type="text" class="input-field" placeholder="Username" required>
+            <input type="email" class="input-field" placeholder="Enter Email" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="password" class="input-field" placeholder="Re-Enter Password" required>
+            <input type="checkbox" class="check-box"><span> I agree to the terms & conditions</span>
+            <button type="submit" class="submit-btn">Register </button>
+          </form>
+
+    </div>
+
+  </div>
+  <br>
+
+  <script>
+  var x= document.getElementById("login");
+  var y= document.getElementById("register");
+  var z= document.getElementById("btn");
+
+  function register() {
+    x.style.left = "-400px";
+    y.style.left = "50px";
+    z.style.left = "110px";
+  }
+
+  function login() {
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0";
+  }
+
+
+  </script>
+
+<!--
+  <div class="header">
+    <span class"account">Have an account? </span>
+    <span><button class="signIn"> Sign in</button></span>
+  </div>
+
+
+
+<hr>
+
+      <h1 class="slogan">Recreating the way you study</h1>
+      <h4 class="slogan">Made for parents, students, teams, and groups
+
+      <p class="front-text">(name of website) is a free academic website that <br>
+        provides parents with recommendations for online educational software. <br>
+        Manage your educational resources, and connect with millions of parents <br>
+        and resources online worldwide. </p>
+
+<div class="login-box">
+  <div class="left-box">
+    <h1 class="sign-up">Sign Up </h1>
+    <form>
+      <div class="credentials">
+        <input type="text" class="input-box" placeholder="Username">
+        <input type="email" class="input-box" placeholder="Email">
+        <input type="password" class="input-box" placeholder="Password">
+        <input type="password" class="input-box" placeholder="Re-Enter password">
+        <input type="submit" class="submit-btn" value="Sign Up">
+      </div>
+
+      <div class="right-box">
+        <span class="right-title">Sign in with <br> Social Network </span>
+        <button class="social facebook">Log in with Facebook</button>
+        <button class="social twitter">Log in with Twitter</button>
+        <button class="social google">Log in with Google</button>
+      </div>
+
+      <div class="or">
+      OR
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+<div class="container">
+      <button class="button">Create a free account</button>
+
+</div>
+-->
+
+
+</body>
+
+
+</html>
