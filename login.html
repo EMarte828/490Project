@@ -26,43 +26,40 @@
 <div class"top">
 <h1 class="slogan"><br><b>A L P H A</h1></b>
 
-  <!--<div class="para">
-    <h4 class="front-text">Made for parents, students, teams, and groups
-    <p class="front-text">Experience the classroom in the comfort of your own home </p>
-  </div>
-</div> -->
 
-  <div class="container">
+   <div class="container">
     <div class="form-box">
       <div class="row">
-        <div class="col-md-6 left-pic">
-        </div>
-        <div class="col-md-6">
-
 
           <div class="button-box">
             <div id="btn"></div>
-            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
-            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button> <!-- Forces the user to enter info -->
+            <button type="button" class="toggle-btn" onclick="register()">Register</button> <!-- //Forces the user to enter info -->
           </div>
-          <form id="login" class="input-group">
-            <input type="text" class="input-field" placeholder="Username" required>
-            <input type="password" class="input-field" placeholder="Enter Password" required>
-            <input type="checkbox" class="check-box"><span> Forgot Password?</span>
-            <button type="submit" class="submit-btn">Log in </button>
+
+          <!-- Login portion of the form -->
+          <form id="login" class="input-group" action ="file:///Users/user/Documents/HTML%20Atom/home.html" method="get" target ="_blank"> <!-- This is where your login button connects to home page once clicked -->
+            <input type="text" class="input-line" placeholder="Username" required>
+            <input type="password" class="input-line" placeholder="Enter Password" required><br><br><br><br><br>
+            <a href="" class="forgot-password">Forgot Password? </a> <!-- Not yet linked -->
+            <button class="submit-button">Log in </button>
           </form>
-          <form id ="register" class="input-group">
-            <input type="text" class="input-field" placeholder="Username" required>
-            <input type="email" class="input-field" placeholder="Enter Email" required>
-            <input type="password" class="input-field" placeholder="Enter Password" required>
-            <input type="password" class="input-field" placeholder="Re-Enter Password" required>
+
+          <!-- Register portion of the form -->
+          <form id ="register" class="input-group" action ="file:///Users/user/Documents/HTML%20Atom/home.html" method="get" target ="_blank"> <!-- This is where your register button connect to home page once clicked -->
+            <input type="text" class="input-line" placeholder="Username" required>
+            <input type="email" class="input-line" placeholder="Enter Email" required>
+            <input type="password" class="input-line" placeholder="Enter Password" required>
+            <input type="password" class="input-line" placeholder="Re-Enter Password" required>
             <input type="checkbox" class="check-box"><span> I agree to the terms & conditions</span>
-            <button type="submit" class="submit-btn">Register </button>
+            <button type="submit" class="submit-button">Register </button>
           </form>
 
     </div>
 
   </div>
+
+
   <br>
 
   <script>
@@ -84,58 +81,6 @@
 
 
   </script>
-
-<!--
-  <div class="header">
-    <span class"account">Have an account? </span>
-    <span><button class="signIn"> Sign in</button></span>
-  </div>
-
-
-
-<hr>
-
-      <h1 class="slogan">Recreating the way you study</h1>
-      <h4 class="slogan">Made for parents, students, teams, and groups
-
-      <p class="front-text">(name of website) is a free academic website that <br>
-        provides parents with recommendations for online educational software. <br>
-        Manage your educational resources, and connect with millions of parents <br>
-        and resources online worldwide. </p>
-
-<div class="login-box">
-  <div class="left-box">
-    <h1 class="sign-up">Sign Up </h1>
-    <form>
-      <div class="credentials">
-        <input type="text" class="input-box" placeholder="Username">
-        <input type="email" class="input-box" placeholder="Email">
-        <input type="password" class="input-box" placeholder="Password">
-        <input type="password" class="input-box" placeholder="Re-Enter password">
-        <input type="submit" class="submit-btn" value="Sign Up">
-      </div>
-
-      <div class="right-box">
-        <span class="right-title">Sign in with <br> Social Network </span>
-        <button class="social facebook">Log in with Facebook</button>
-        <button class="social twitter">Log in with Twitter</button>
-        <button class="social google">Log in with Google</button>
-      </div>
-
-      <div class="or">
-      OR
-      </div>
-    </form>
-  </div>
-</div>
-
-
-
-<div class="container">
-      <button class="button">Create a free account</button>
-
-</div>
--->
 
 
 </body>
