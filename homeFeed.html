@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel = "stylesheet" type ="text/css" href ="../css/homeFeed.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Stalinist+One&display=swap" rel="stylesheet">
+
+  <title>Home Feed </title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="navbar">
+      <nav>
+        <div class="search-box">
+          <input type="text" class="search-txt" placeholder="Type to search">
+
+        </div>
+        <ul>
+
+          <li><a href="file:///Users/user/Documents/HTML%20Atom/home.html">HOME</a></li>
+          <li><a href="">RESOURCES FEED</a></li>
+          <li><a href="">K-6</a></li>
+          <li><a href="">7-12</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  <div style="width: 800px; margin: auto; min-height: 400px;">
+
+    <div style="background-color: white; text-align: center; color: #000000; font-family: raleway; font-weight: 0;">
+
+      <img src="https://i.pinimg.com/originals/34/37/b4/3437b4d7330ccb3940591201507bfc7b.jpg" style="width: 100%;">
+      <img id="profile-image" src="https://imgc.artprintimages.com/img/print/portrait-of-beautiful-girl-in-hat-in-profile-posing-in-studio-black-and-white-photography_u-l-q1a42270.jpg">
+      <br>
+      Louise Everett
+      <br>
+      <div id="profile-menu">Timeline</div>
+      <div id="profile-menu">About</div>
+      <div id="profile-menu">Friends</div>
+      <div id="profile-menu">Photos</div>
+      <div id="profile-menu">Settings</div>
+
+    </div>
+
+    <div style="display: flex;">
+
+      <!--Left side for friends -->
+      <div style="min-height: 400px; flex:1;">
+
+          <div id="friends-bar">
+
+            Friends<br>
+
+            <div id="friends">
+              <img id="Allison-Zhang"src="https://i.pinimg.com/600x315/a6/0d/68/a60d685194a7fd984d08a595a0a99ae7.jpg">
+              <br>
+              Allison Zhang
+            </div>
+
+            <div id="friends">
+              <img id="Reece-Smith"src="https://cdn.fastly.picmonkey.com/contentful/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg">
+              <br>
+              Reece Smith
+            </div>
+
+            <div id="friends">
+              <img id="Nelson-Loft"src="https://cultivatedculture.com/wp-content/uploads/2019/12/LinkedIn-Profile-Picture-Example-Tynan-Allan.jpeg">
+              <br>
+              Nelson Loft
+            </div>
+
+            <div id="friends">
+              <img id="Katherine-Paiz"src="https://i.pinimg.com/736x/44/8f/37/448f3758f2dc1ecd2183225cdb83b9d3.jpg">
+              <br>
+              Katherine Paiz
+            </div>
+
+        </div>
+
+      </div>
+
+      <!-- right side for post container with post box -->
+      <div style= "min-height: 400px; flex:2.5; padding: 20px; padding-right: 0px;">
+
+          <div style="border: solid thin #aaa; padding: 10px; background-color: white;">
+
+            <textarea placeholder="What's on your mind?"></textarea>
+            <input id="post-button" type="submit" value="Post">
+            <br>
+          </div>
+
+        <!--Users post area underneath post box -->
+        <div id="post-bar">
+
+          <!-- Allison Zhang's post -->
+          <div id="post">
+            <div>
+                <img src="https://i.pinimg.com/600x315/a6/0d/68/a60d685194a7fd984d08a595a0a99ae7.jpg" style="width: 75px; margin-right: 4px;">
+
+            </div>
+            <div>
+
+              <div style ="font-weight: bold; color: #000;">Allison Zhang</div>
+              Hello, I wanted to share one of my favorite programming quotes from one of the online resources I've found online. I figured you would enjoy it! The quote says: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." It is written by Martin Fowler.
+              </br></br>
+              <a href="">Like</a> . <a href="">Comment</a> . <span style="color: #999;">February 18 2021
+            </div>
+          </div>
+
+            <!--Reece Smith post -->
+            <div id="post">
+              <div>
+                  <img src="https://cdn.fastly.picmonkey.com/contentful/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg" style="width: 75px; margin-right: 4px;">
+
+              </div>
+              <div>
+
+                <div style ="font-weight: bold; color: #000;">Reece Smith</div>
+                There's this amazing website I found suitable for grades 7-12. Please email me at Reece.Smith@gmail.com if you would look the link!
+                </br></br>
+                <a href="">Like</a> . <a href="">Comment</a> . <span style="color: #999;">February 18 2021
+              </div>
+
+              <!-- -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>
