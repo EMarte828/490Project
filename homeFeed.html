@@ -1,1 +1,291 @@
-// Re doing this whole code
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Feed</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/homeFeed.css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar_left">
+        <img class="navbar_logo" src="https://img.icons8.com/ios/452/beta.png" alt="logo" />
+        <div class="input-icons">
+          <i class="fas fa-search icon"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Search on Beta"
+          />
+        </div>
+      </div>
+
+      <div class="navbar_center">
+        <a class="active_icon" href="#">
+          <i class="fas fa-home"></i>
+        </a>
+        <a href="#">Resources <br>Feed
+        </a>
+        <a href="#">K-6
+        </a>
+        <a href="#">7-12
+        </a>
+      </div>
+
+      <div class="navbar_right">
+        <div class="navbar_right_profile">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFZ3vt9gAnb0PviugeW3pd5yYgnetqRlOkuA&usqp=CAU" alt="profile" />
+          <span>Louise</span>
+        </div>
+        <div class="navbar_right_links">
+          <i class="fa fa-gear"></i>
+          <i class="fa fa-envelope"></i>
+          <i class="fas fa-bell"></i>
+          <i class="fas fa-power-off"></i>
+        </div>
+      </div>
+    </div>
+    <!-- navbar ends -->
+    <!-- content starts -->
+    <div class="content">
+      <div class="content_left">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFZ3vt9gAnb0PviugeW3pd5yYgnetqRlOkuA&usqp=CAU" alt="profile" />
+              <span>Louise Elliot</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://toppng.com/uploads/preview/a-education-icon-education-icon-11553430161bimwyohogu.png" alt="covid" />
+              <span>Educational Resources</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://img.icons8.com/bubbles/2x/friends--v4.png" alt="friends" />
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://assets.materialup.com/uploads/ca94beb8-8bab-49e4-80d3-0390f5680f00/preview.jpg" alt="groups" /> <span>Groups</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/videos-17-461736.png" alt="videos" /> <span>Videos</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://schools.stlucie.k12.fl.us/lpa/files/2017/09/Events-Icon.png" alt="events" /> <span>Events</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://st2.depositphotos.com/5532432/10097/v/950/depositphotos_100970388-stock-illustration-memories-colored-vector-icon.jpg" alt="memories" />
+              <span>Memories</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/saved-2223099-1861901.png" alt="saved" /> <span>Saved</span>
+            </a>
+          </li>
+
+          <li>
+            <i class="fas fa-arrow-down"></i>
+            <span class="see_more">See More</span>
+          </li>
+          <div class="border"></div>
+          <h3 class="shortcut_title">Your shortcuts</h3>
+          <div class="shortcuts_wrapper">
+            <a href="#">
+              <img src="https://cdn0.iconfinder.com/data/icons/mobile-device/512/uppercase-latin-letter-round-e-keyboard-2-512.png" alt="shortcuts" />
+              <span>Elearning</span>
+            </a>
+          </div>
+        </ul>
+      </div>
+
+      <div class="content_center">
+        <div class="stories">
+          <img src="https://i.picsum.photos/id/1/5616/3744" alt="" />
+          <img src="https://i.picsum.photos/id/1/5616/3744" alt="" />
+          <img src="https://i.picsum.photos/id/1/5616/3744" alt="" />
+          <img src="https://i.picsum.photos/id/1/5616/3744" alt="" />
+          <img src="https://i.picsum.photos/id/1/5616/3744" alt="" />
+          <img src="https://i.picsum.photos/id/1/5616/3744" alt="" />
+        </div>
+        <div class="media_container">
+          <div class="share">
+            <div class="share_upSide">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFZ3vt9gAnb0PviugeW3pd5yYgnetqRlOkuA&usqp=CAU" alt="profile" />
+              <input type="text" placeholder="What's on your mind?" />
+            </div>
+            <hr />
+            <div class="share_downSide">
+              <div class="share_downSide_link">
+                <i class="fas fa-video live-video-icon"></i>
+                <span>Live Video</span>
+              </div>
+              <div class="share_downSide_link">
+                <i class="fas fa-photo-video photo-video-icon"></i>
+                <span>Photo/Video</span>
+              </div>
+              <div class="share_downSide_link">
+                <i class="far fa-grin-alt feeling-icon"></i>
+                <span>Post Status</span>
+              </div>
+            </div>
+          </div>
+          <!-- news feed -->
+          <div class="news_feed">
+            <div class="news_feed_title">
+              <img src="https://pbs.twimg.com/profile_images/1021833760768053248/67ROSZVF.jpg" alt="user" />
+              <div class="news_feed_title_content">
+                <p>Chegg Study</p>
+                <span>12h . <i class="fas fa-globe-americas"></i></span>
+              </div>
+            </div>
+            <div class="news_feed_description">
+              <p class="news_feed_subtitle">
+                Attention! Beta News now presents one of the most efficient and free open source resources known as Chegg Study. Subcription prices vary from $14.95 a month to $19.95 a month.
+              </p>
+              <img src="https://c.cheggcdn.com/assets/site/marketing/landing%20pages/2019-cheggstudy/img-Q&A-dot-mobile3-comp.jpg" alt="chegg" alt="chegg" />
+              <div class="news_feed_description_title">
+                <span>CHEGG STUDY</span>
+                <p>
+                  Get 24/7 access to step-by-step textbook solutions and expert Q&A. Subscribe now. Expert Q&A. Step-by-Step Solutions. Services: Textbook Solution Manuals, Solved Study Questions, Post a Question - 24/7, Homework Help.
+                </p>
+              </div>
+            </div>
+
+            <div class="likes_area">
+              <div class="emojis">
+                <img src="https://cdn.pixabay.com/photo/2017/03/05/21/55/emoticon-2120024_960_720.png" alt="like" />
+                <img src="https://i.pinimg.com/originals/b1/13/6c/b1136c912e6cfa93b3e1463db47bb508.png" alt="surprised" />
+                <img src="https://i.pinimg.com/originals/c2/0a/22/c20a2221cc2eda66004be6e80a704bd5.png" alt="angry" />
+                <span>25</span>
+              </div>
+              <div class="comment_counts">
+                <span>4 Comments</span>
+                <span>13 Shares</span>
+              </div>
+            </div>
+
+            <div class="divider"><hr /></div>
+            <div class="likes_buttons">
+              <div class="likes_buttons_links">
+                <i class="far fa-thumbs-up"></i>
+                <span>Like</span>
+              </div>
+              <div class="likes_buttons_links">
+                <i class="far fa-comment-alt"></i>
+                <span>Comment</span>
+              </div>
+              <div class="likes_buttons_links">
+                <i class="fas fa-share"></i>
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content_right">
+        <div class="content_right_inner">
+          <div class="your_pages">
+            <h3>Your Pages</h3>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img
+                  class="your_page_logo"
+                  src="https://pbs.twimg.com/profile_images/1021833760768053248/67ROSZVF.jpg"
+                  alt="cheggStudy"
+                />
+                <span>Chegg Study</span>
+              </a>
+            </li>
+            <li class="content_right_small_text">
+              <a href="#">
+                <i class="fas fa-bell"></i>
+                <span>5 Notifications</span>
+              </a>
+            </li>
+            <li class="content_right_small_text">
+              <a href="#">
+                <i class="fas fa-bullhorn"></i>
+                <span>Create Promotion</span>
+              </a>
+            </li>
+          </ul>
+          <div class="content_right_divider"></div>
+          <div class="birthdays">
+            <h3>Birthdays</h3>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="https://www.irreverentgent.com/wp-content/uploads/2018/03/Awesome-Profile-Pictures-for-Guys-look-away2.jpg" alt="gift-box" />
+                <span>Jary Garson's birthday is today</span>
+              </a>
+            </li>
+          </ul>
+          <div class="content_right_divider"></div>
+          <div class="contacts">
+            <h3>Contacts</h3>
+            <div class="contact_icons">
+              <i class="fas fa-search"></i>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="https://mattkozz.files.wordpress.com/2013/09/good-looking-guy.jpg" alt="user" />
+                <span>John Doe</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="https://www.itl.cat/pngfile/big/169-1692129_facebook-wallpaper-girl-girl-facebook-image-download.jpg" alt="user" />
+                <span>Zorah Makey</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="https://1.bp.blogspot.com/-oRWSNra1wMI/WldNcChtxmI/AAAAAAAAAng/HUw3jxSbwncchsonrWSt_UEEeLGezHt7ACLcBGAs/s640/Screenshot_32.png" alt="user" />
+                <span>Kero Janre</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="https://www.socialbakers.com/website/storage/2019/11/1551953759344_jordan-lukes-1.jpeg" alt="user" />
+                <span>Ube Yuri</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="https://media.glamour.com/photos/5695aa9016d0dc3747ed357b/master/w_400%2Cc_limit/sex-love-life-2009-12-1207-05_updates_constantly_li.jpg" alt="user" />
+                <span>Hosaa Mora</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
