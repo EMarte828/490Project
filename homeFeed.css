@@ -313,7 +313,7 @@ body {
 
 .media_container hr {
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.08); 
+  border-color: rgba(255, 255, 255, 0.08);
   border-width: 1px;
 }
 
@@ -370,6 +370,12 @@ body {
   margin: 15px 0;
 }
 
+.news_feed_user {
+  background-color: #000000;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
 .news_feed_title {
   padding: 15px;
   display: flex;
@@ -397,7 +403,7 @@ body {
 }
 
 .news_feed_description {
-  min-height: 400px;
+  min-height: 40px;
 }
 
 .news_feed_subtitle {
@@ -583,4 +589,3 @@ body {
 .contacts i {
   margin-left: 15px;
 }
-
